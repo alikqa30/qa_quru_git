@@ -1,6 +1,7 @@
 
 plugins {
     id("java")
+    //test
 }
 
 group = "gyru.qa"
