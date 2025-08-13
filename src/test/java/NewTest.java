@@ -5,7 +5,8 @@ import org.junit.Test;
 public class NewTest {
     @Test
     public void newTest() {
+        int i;
         System.out.println("Test conflict");
-        Assert.assertTrue(3 < 1);
+        Assert.assertTrue(i < 2);
     }
 }
