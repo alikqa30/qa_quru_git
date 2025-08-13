@@ -1,9 +1,11 @@
+
 import org.junit.Assert;
 import org.junit.Test;
 
 public class NewTest {
     @Test
     public void newTest() {
-        Assert.assertTrue(3 > 2);
+        System.out.println("Test conflict");
+        Assert.assertTrue(3 < 1);
     }
 }
