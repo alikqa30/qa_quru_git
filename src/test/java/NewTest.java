@@ -3,7 +3,8 @@ import org.junit.Test;
 
 public class NewTest {
     @Test
+    int i;
     public void newTest() {
-        Assert.assertTrue(3 > 2);
+        Assert.assertTrue(i < 2);
     }
 }
